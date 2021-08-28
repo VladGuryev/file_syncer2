@@ -1,0 +1,14 @@
+{
+	"program":
+	{
+		"hash_db_file_name" : "hash_db"
+	},
+	"backup_files":
+	{
+		"file_label":
+		{
+			"source": "/path/to/source/folder/filename",
+			"dest": "/path/to/dest/folder"
+		}
+	}
+}
