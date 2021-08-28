@@ -5,10 +5,15 @@
 	},
 	"backup_files":
 	{
-		"file_label":
+		"file_label_1":
 		{
-			"source": "/path/to/source/folder/filename",
-			"dest": "/path/to/dest/folder"
+			"source": "/path/to/source/folder/first_file",
+			"dest": "/path/to/dest/folder/for/first_file"
+		},
+		"file_label_2":
+		{
+			"source": "/path/to/source/folder/second_file",
+			"dest": "/path/to/dest/folder/for/second_file"
 		}
 	}
 }
