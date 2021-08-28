@@ -75,7 +75,7 @@ def main():
 
         if is_file_exist(source_path) is False:
             print(f"source file with label: {file_label} doesn't exist")
-            return
+            continue
 
         current_hash = calculate_hash(source_path)
         writing_time = datetime.today().strftime("%Y-%m-%d-%H-%M-%S")
